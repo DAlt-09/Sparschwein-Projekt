@@ -7,3 +7,5 @@ An die Pins 12, 11, 10, 5, 4, 3 und 2, kommt das LCD, wie gewohnt verbunden.
 Der eine Arduino, der die Sensoren verbunden hat, muss von TX auf dem anderen Arduino, mit dem LCD an RX verbunden werden und genau so andersrum.
 
 Zuletzt kommt der Slave code in den Arduino mit den Sensoren und der Master Code in dem, der mit dem LCD verbunden ist.
+
+Vergisst nicht die beiden Arduinos mit VIN und GND zu verbinden um die Stromversorgung herzustellen!
