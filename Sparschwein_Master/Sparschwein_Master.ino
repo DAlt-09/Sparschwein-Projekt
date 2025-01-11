@@ -22,5 +22,6 @@ void loop() {
     lcd.print("                "); // Nur eine Zeile leeren
     lcd.setCursor(0, 1);
     lcd.print(money, 2);
+    lcd.print("€");
   }
 }
